@@ -1,0 +1,3 @@
+@function imagePath( $path ,$img ){
+  @return url($path + "/" + $img)
+}
